@@ -17,6 +17,12 @@ public class StreamOperations {
         int sumOfNumber = numbers.stream().reduce(0, (subtotal ,element) -> subtotal + element);
         System.out.println("Sum of numbers: " + sumOfNumber);
 
+        // Map
+        List<Integer> evenNumbers = numbers.stream()
+            .filter(number -> number % 2 == 0)
+            .map(number -> number).toList();
+        System.out.println("Even numbers: " + evenNumbers);
+
 
     }
 }
