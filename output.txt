@@ -1,0 +1,1 @@
+AnalysisResults[sum=55, average=5.5, median=5.5, occurrences=null]
