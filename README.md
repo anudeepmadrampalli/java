@@ -1,2 +1,2 @@
 # java
-Java Example
+Java examples, Practice.
